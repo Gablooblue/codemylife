@@ -53,6 +53,45 @@ hr.star-dark:after {
   background-color: white;
 }
 
+hr.party-light,
+hr.party-dark {
+  max-width: 15rem;
+  padding: 0;
+  text-align: center;
+  border: none;
+  border-top: solid 0.25rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr.party-light:after,
+hr.party-dark:after {
+  position: relative;
+  top: -.8em;
+  display: inline-block;
+  padding: 0 0.25em;
+  content: '\f0fc';
+  font-family: FontAwesome;
+  font-size: 2em;
+}
+
+hr.party-light {
+  border-color: $white;
+}
+hr.party-light:after {
+  color: $white;
+  background-color: $primary;
+}
+
+hr.party-dark {
+  border-color: white;
+}
+hr.party-dark:after {
+  color: white;
+  background-color: $secondary;
+}
 // Section Padding Settings
 section {
   padding: 6rem 0;

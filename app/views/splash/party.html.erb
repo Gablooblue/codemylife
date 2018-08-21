@@ -1,2 +1,120 @@
-<h1>Splash#party</h1>
-<p>Find me in app/views/splash/party.html.erb</p>
+  <body id="page-top">
+      <%= render "party_modals" %>
+
+    <!-- Navigation -->
+    <!-- Header -->
+    <header class="masthead bg-primary text-white text-center">
+      <div class="container">
+	<%= image_tag "profile.png", class: "img-fluid mb-5 d-block mx-auto" %>
+        <h1 class="text-uppercase mb-0">Party Is Life</h1>
+        <hr class="party-light">
+        <h2 class="font-weight-light mb-0">Party Animal - Beer Chugger - Crazy and Loud</h2>
+      </div>
+    </header>
+
+    <!-- Portfolio Grid Section -->
+    <section class="portfolio bg-secondary" id="introduction">
+      <div class="container">
+        <h2 class="text-center text-uppercase text-white mb-0">Introduction</h2>
+        <hr class="party-dark mb-5">
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" data-toggle="modal" data-target="#party1">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+	      <div class = "text-center">
+	      <%= image_tag("portfolio/hand.png", class: "img-fluid") %>
+	      </div>
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" data-toggle="modal" data-target="#party2">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+	      <div class = "text-center">
+	      <%= image_tag("portfolio/beer.png", class: "img-fluid") %>
+	      </div>
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" data-toggle="modal" data-target="#party3">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+	      <div class = "text-center">
+		  <%= image_tag("portfolio/alcohol.png", class: "img-fluid") %>
+	      </div>
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" data-toggle="modal" data-target="#party4">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+	      <div class = "text-center">
+		  <%= image_tag("portfolio/speakers.png", class: "img-fluid") %>
+	      </div>
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" data-toggle="modal" data-target="#party5">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+	      <div class = "text-center">
+	      <%= image_tag("portfolio/games.png", class: "img-fluid") %>
+	      </div>
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" data-toggle="modal" data-target="#party6">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+	      <div class="text-center">
+		  <%= image_tag("portfolio/vip.png", class: "img-fluid") %>
+	    </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="bg-primary text-white mb-0" id="timeline">
+      <div class="container">
+        <h2 class="text-center text-uppercase text-white">About</h2>
+        <hr class="party-light mb-5">
+        <div class="row">
+          <div class="col-lg-4 ml-auto">
+            <p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+          </div>
+          <div class="col-lg-4 mr-auto">
+            <p class="lead">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect partyting point!</p>
+          </div>
+        </div>
+        <div class="text-center mt-4">
+          <a class="btn btn-xl btn-outline-light" href="#">
+            <i class="fa fa-download mr-2"></i>
+            Download Now!
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </body>
+
