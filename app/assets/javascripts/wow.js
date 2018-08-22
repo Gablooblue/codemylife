@@ -1,3 +1,4 @@
+/*
 function isIn(needle, haystack) {
   return haystack.indexOf(needle) >= 0;
 }
@@ -414,3 +415,4 @@ export default class WOW {
     return !this.config.mobile && isMobile(navigator.userAgent);
   }
 }
+*/
