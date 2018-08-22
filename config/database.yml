@@ -27,3 +27,9 @@ test:
 production:
   <<: *default
   database: production
+  sslmode: "require"
+  host: <%= ENV["DB_HOST"] %>
+  port: 5432
+  database: <%= ENV["DB_NAME"] %>
+  username: <%= ENV["DB_USERNAME"] %>
+  password: <%= ENV["DB_PASSWORD"] %>
