@@ -17,4 +17,8 @@
 //= require popper
 //= require bootstrap-sprockets
 //= require freelancer
+//= require wow
 //= require_tree .
+
+new WOW().init();
+
