@@ -1,5 +1,9 @@
 {
   "name": "codemylife",
   "private": true,
-  "dependencies": {}
+  "dependencies": {},
+  "engines": {
+      "yarn": ">= 0.25.2"
+  }
+
 }
